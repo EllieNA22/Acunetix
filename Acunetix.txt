@@ -1,0 +1,91 @@
+Acunetix Guide: A Comprehensive Learning Material
+Introduction to Acunetix
+Acunetix is a powerful web vulnerability scanner designed to identify and manage security vulnerabilities in websites, web applications, and internal servers. It supports both dynamic application security testing (DAST) and some static application security testing (SAST) functionalities. This guide will provide a detailed overview of how to use Acunetix, from setting up scans for external URLs to scanning internal servers by specifying IP addresses. Additionally, we'll cover how to view reports.management.
+
+Table of Contents
+Getting Started with Acunetix
+
+Overview
+Key Features
+Setting Up and Configuring Scans
+
+How to Scan a URL
+Configuring Scan Settings
+Running Scans
+Scanning Internal Servers
+
+How to Find Your IP Address
+Configuring Scans for Internal Servers
+Running Internal Scans
+Viewing and Understanding Reports
+
+Accessing Scan Results
+Analyzing Vulnerabilities
+Exporting and Sharing Reports
+
+-----------------------------------------------------------------------------
+Understanding the Automation Capabilities
+1. Getting Started with Acunetix
+Overview
+Acunetix is a comprehensive web vulnerability scanner that helps organizations identify and remediate security issues in their web applications and internal servers. It is widely used for its ability to detect a wide range of vulnerabilities, including SQL injection, XSS, and more.
+
+Key Features
+Comprehensive Scanning: Supports scanning for a variety of vulnerabilities in both web applications and internal networks.
+Vulnerability Management: Prioritize vulnerabilities based on risk and impact, making it easier to manage security issues.
+
+--------------------------------------------------------------------------------------------------------
+2. Setting Up and Configuring Scans
+How to Scan a URL
+Log in to Acunetix:
+
+Navigate to your Acunetix dashboard and log in with your credentials.
+Create a New Target:
+
+Go to the "Targets" section and click on "Add Target."
+Enter the URL of the web application you wish to scan.
+Provide additional details such as the application name and description if needed.
+Configure Scan Settings:
+
+Choose between a full scan or a specific scan type (e.g., High-Risk Vulnerabilities).
+Configure options such as scan depth, authentication, and additional scan settings based on your needs.
+Run the Scan:
+
+Once you have configured the scan settings, click "Start Scan."
+Acunetix will begin scanning the specified URL for vulnerabilities, and you can monitor the progress in real-time.
+--------------------------------------------------------------------------------------------
+3. Scanning Internal Servers
+
+To scan an internal server using Acunetix, you need to specify the server's IP address.:
+
+Press Win + R, type cmd, and hit Enter.
+Run ipconfig Command:
+
+Look for the "IPv4 Address" under your active network connection. This is the IP address of your machine.
+Configuring Scans for Internal Servers
+Add Internal Server as a Target:
+
+Go to the "Targets" section in Acunetix and click "Add Target."
+Enter the IP address of the internal server you want to scan. You can find this IP address using the ipconfig command as described above.
+Configure Scan Settings:
+
+Select the scan type (e.g., Full Scan, High-Risk Vulnerabilities) for your internal server.
+Configure additional settings such as port scanning, network services, and authentication if required.
+Run the Scan:
+
+After configuring the scan, click "Start Scan."
+Acunetix will begin scanning the internal server for vulnerabilities, just as it would with a web application.
+-----------------------------------------------------------------------------
+4. Viewing and Understanding Reports
+Accessing Scan Results
+View Completed Scans:
+
+Once the scan is complete, go to the "Scans" section under your target.
+Select the completed scan to view detailed results.
+Analyzing Vulnerabilities:
+
+The report will list all identified vulnerabilities categorized by severity (e.g., Critical, High, Medium, Low).
+For each vulnerability, Acunetix provides a description, potential impact, and remediation suggestions.
+Exporting and Sharing Reports:
+
+You can export the report in different formats such as PDF or CSV for further analysis or compliance reporting.
+
